@@ -18,7 +18,7 @@ module.exports = {
         app.import(cssPath + file);
       });
     } else {
-      console.warn(chalk.yellow("You have installed ember-cli-spinkit but you didn't run 'ember generate spinkit-<name of spinner>' yet. See https://github.com/pogopaule/ember-cli-spinkit for more information."));
+      // console.warn(chalk.yellow("You have installed ember-cli-spinkit but you didn't run 'ember generate spinkit-<name of spinner>' yet. See https://github.com/pogopaule/ember-cli-spinkit for more information."));
     }
   },
   treeForTemplates: function() {
